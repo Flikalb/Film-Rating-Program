@@ -1,0 +1,153 @@
+This file consists of film data that you should use to test your Haskell 
+coursework program. There are 25 films in total.
+
+After you have worked out a suitable Film datatype for your Haskell program, 
+you should include the test data from this file without any modifications or 
+additions in your program as a list of type [Film]; i.e.:
+
+  testDatabase :: [Film]
+  testDatabase = [ ... the 25 Film values ... ] 
+
+This test data should be used to demonstrate the correctness of your
+program in the in-class demonstration. Therefore, if you have managed
+to complete loading and saving of data, make sure that the test data 
+without any modifications or additions is stored in your database 
+files at the beginning of the demonstration. Regardless of whether you
+have implemented a user interface or loading/saving, make sure that
+you also complete the demo function in your program to be used in the
+demonstration.
+
+The film records include the following data:
+    title
+    cast
+    year
+    fans
+
+---------
+The Films
+---------
+
+"Casino Royale"
+"Daniel Craig"
+2006
+"Garry", "Dave", "Zoe", "Kevin", "Emma"
+
+"Blade Runner"
+"Harrison Ford", "Rutger Hauer"
+1982
+"Dave", "Zoe", "Amy", "Bill", "Ian", "Kevin", "Emma", "Sam", "Megan"
+
+"Psycho"
+"Anthony Perkins", "Janet Leigh"
+1960
+"Bill", "Jo", "Garry", "Kevin", "Olga", "Liz"
+
+"Body Of Lies"
+"Leonardo DiCaprio", "Russell Crowe"
+2008
+"Sam", "Neal", "Kevin", "Chris", "Olga"
+
+"Mamma Mia!"
+"Meryl Streep", "Pierce Brosnan"
+2008
+"Kevin", "Jo", "Liz", "Amy", "Sam", "Wally", "Zoe"
+
+"Saving Private Ryan"
+"Tom Hanks", "Matt Damon"
+1998
+"Heidi", "Jo", "Megan", "Olga", "Zoe"
+
+"Avatar"
+"Sam Worthington", "Zoe Saldana", "Sigourney Weaver"
+2009
+"Olga", "Paula", "Wally", "Megan", "Tim", "Zoe", "Emma"
+
+"Titanic"
+"Leonardo DiCaprio", "Kate Winslet"
+1997
+"Zoe", "Amy", "Emma", "Heidi", "Jo", "Megan", "Olga", "Tim"
+
+"Quantum of Solace"
+"Daniel Craig"
+2008
+"Bill", "Olga", "Tim", "Zoe", "Paula"
+
+"You've Got Mail"
+"Meg Ryan", "Tom Hanks"
+1998
+"Dave", "Amy"
+
+"Aliens"
+"Sigourney Weaver"
+1986
+"Fred", "Dave", "Amy", "Bill", "Wally", "Paula", "Zoe"
+
+"Kingdom Of Heaven"
+"Orlando Bloom", "Liam Neeson"
+2005
+"Chris", "Emma", "Bill", "Dave"
+
+"Inception"
+"Leonardo DiCaprio"
+2010
+"Chris", "Emma", "Bill", "Dave", "Liz", "Kevin", "Olga"
+
+"Vertigo"
+"James Stewart", "Kim Novak"
+1958
+"Bill", "Emma", "Garry", "Kevin", "Olga", "Tim"
+
+"Up in the Air"
+"George Clooney"
+2009
+"Wally", "Liz", "Kevin", "Tim", "Emma"
+
+"The Birds"
+"Rod Taylor", "Tippi Hedren"
+1963
+"Kevin", "Olga", "Tim", "Wally", "Kevin"
+
+"The Godfather"
+"Marlon Brando", "Al Pacino"
+1972
+"Bill", "Fred", "Garry", "Sam", "Tim", "Zoe"
+
+"The Shawshank Redemption"
+"Tim Robbins", "Morgan Freeman"
+1994
+"Jo", "Sam", "Zoe", "Dave", "Emma", "Garry", "Kevin"
+
+"Gladiator"
+"Russell Crowe"
+2000
+"Garry", "Ian", "Neal"
+
+"The King's Speech"
+"Colin Firth", "Geoffrey Rush"
+2010
+"Garry", "Megan", "Sam", "Wally", "Ian"
+
+"True Lies"
+"Arnold Schwarzenegger"
+1994
+"Dave", "Kevin", "Jo", "Zoe"
+
+"Minority Report"
+"Tom Cruise"
+2002
+"Dave", "Garry", "Megan", "Sam", "Wally"
+
+"Forrest Gump"
+"Tom Hanks"
+1994
+"Ian", "Garry", "Liz", "Sam", "Dave", "Jo"
+
+"127 Hours"
+"James Franco"
+2010
+"Liz", "Wally", "Megan"
+
+"The Terminal"
+"Tom Hanks", "Catherine Zeta Jones"
+2004
+"Olga", "Heidi", "Bill", "Sam", "Zoe"
