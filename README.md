@@ -1,3 +1,6 @@
+Film Rating Program
+===================
+
 This program has been written for a coursework
 during my last semester of my two year 
 technical degree in Computer Science while 
